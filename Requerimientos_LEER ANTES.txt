@@ -1,0 +1,48 @@
+# 1
+abrir el directorio en cmd o la terminal
+
+# 2
+python -m venv venv
+
+# 3
+venv\Scripts\activate
+
+# 4
+pip install Django==5.0
+
+# 5
+revisar la version de Django
+django-admin --version
+
+# 6
+entrar a tu proyecto, o del git clone del proyecto
+cd xxxxxx
+
+# 7
+luego en tu proyecto 
+pip install djangorestframework
+actualiza el pip
+python.exe -m pip install --upgrade pip
+vuelve a ejecutar
+pip install djangorestframework
+
+# 8
+python -m pip install django-filter
+
+# 9
+python -m pip install Pillow
+
+# 10
+python manage.py makemigrations
+python manage.py migrate
+
+# 11
+vamos a ejecutar el shell de Django  antes para hacer test
+python .\manage.py shell
+
+mas requerimientos
+Django==2.1.3
+djangorestframework==3.9.0
+django-filter==2.0.0
+mock==2.0.0
+Pillow==2.1.0
